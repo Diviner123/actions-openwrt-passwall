@@ -18,6 +18,6 @@ git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/luci-app-k
 # luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
-# wifi
-git clone https://github.com/Diviner123/phicommk3-firmware.git  package/phicommk3-firmware
-vm -f brcmfmac4366c-pcie.bin.ac88u /package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
+
+./scripts/feeds update -a
+./scripts/feeds install -a
