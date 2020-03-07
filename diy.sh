@@ -20,5 +20,4 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 
 # wifi
 git clone https://github.com/Diviner123/phicommk3-firmware.git  package/phicommk3-firmware
-cd /package/phicommk3-firmware
 vm -f brcmfmac4366c-pcie.bin.ac88u /package/lean/k3-brcmfmac4366c-firmware/files/lib/firmware/brcm/brcmfmac4366c-pcie.bin
